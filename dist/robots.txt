@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://aec-project.com/sitemap.xml
