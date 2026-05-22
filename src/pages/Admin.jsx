@@ -1,0 +1,3 @@
+import { Link } from "react-router-dom";
+import { SubHero, Footer } from "../components/Section.jsx";
+export default function Admin({ t }){return <><SubHero kicker="admin access" title="ADMIN" lead={t.pages.adminLead}/><section className="content section"><div className="admin-grid"><div className="contact-panel reveal"><p className="kicker">admin panel</p><h2 className="big-copy">説明はまだありません</h2><p>今後、管理者ログイン、ニュース投稿、アプリ情報編集、問い合わせ確認などの説明をここに追加できます。</p><Link className="btn btn-primary" to="/contact">CONTACT</Link></div><div className="info-card reveal"><span className="label">future</span><h2>追加予定機能</h2><p>ニュース投稿、アプリ一覧編集、Store商品管理、問い合わせ確認、アクセス権限管理などを想定できます。</p></div></div></section><Footer/></>}

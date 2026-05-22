@@ -1,0 +1,26 @@
+{
+  "name": "aec-kagura-terminal-site-v4-no-audio-character",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "analyze": "vite build --mode analyze"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-icons": "latest",
+    "gsap": "latest",
+    "lenis": "latest",
+    "three": "latest",
+    "framer-motion": "latest"
+  },
+  "devDependencies": {},
+  "description": "AEC / KAGURA terminal site v4: no audio, no character, mobile/deploy fixed."
+}

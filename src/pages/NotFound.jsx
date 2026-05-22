@@ -1,0 +1,2 @@
+import { Link } from "react-router-dom";
+export default function NotFound(){return <main className="error-shell"><div className="error-panel"><p className="kicker">SYSTEM ERROR / 404</p><h1>NODE LOST</h1><p>指定された接続先は存在しません。ERROR画面から秘密ノードへ遷移できる可能性があります。</p><div className="error-code">ERR::AEC_NODE_404 / HEX 4B4147555241</div><Link className="btn btn-primary" to="/">HOME</Link><Link className="btn btn-ghost" to="/hidden">SECRET NODE</Link></div></main>}
